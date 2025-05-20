@@ -1,0 +1,38 @@
+ body {
+    background-color: black;
+ }
+h3 {
+    color: #0f8ec0;
+}
+
+div p {
+    color: aqua;
+}
+
+#parrafito {
+    color: blueviolet;
+}
+
+.penolope {
+    color: aliceblue;
+}
+
+.clase-one {
+    color: #8710FB ;
+}
+
+p {
+    color: rgba(255, 115, 0, 0.726);
+}
+
+.maicol {
+    font-size: 1.5rem;
+    font-weight:bolder;
+    font-family: "Playwrite DK Loopet";
+    letter-spacing: 1dvi;
+    text-align: justify;
+    text-transform: lowercase;
+    font-style:normal;
+    line-height: 35px;
+}
+

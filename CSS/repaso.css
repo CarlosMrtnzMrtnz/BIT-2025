@@ -1,0 +1,26 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#titulo-secundario {
+    color: rgb(226, 70, 43);
+    font-family:  Times, serif;
+    font-size: 40px;
+    text-transform: lowercase;
+    text-align: center;
+
+}
+
+.one {
+    color: aqua;
+    background-color: rgb(241, 136, 7);
+}
+.x {
+        display: flex;
+    /* align-items: center; */
+    align-content: center;
+}
