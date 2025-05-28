@@ -1,83 +1,87 @@
-img {
-  height: 300px;
+.nav-link {
+  cursor: pointer;
 }
 
-/* From Uiverse.io by alexruix */ 
-.card {
- width: 190px;
- padding: 1.9rem 1.2rem;
- text-align: center;
- background: #2a2b38;
+
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+  background-color: #fff;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-/*Inputs*/
-.field {
- margin-top: .5rem;
- display: flex;
- align-items: center;
- justify-content: center;
- gap: .5em;
- background-color: #1f2029;
- border-radius: 4px;
- padding: .5em 1em;
+.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
 }
 
-.input-icon {
- height: 1em;
- width: 1em;
- fill: #ffeba7;
+.input-container {
+  position: relative;
 }
 
-.input-field {
- background: none;
- border: none;
- outline: none;
- width: 100%;
- color: #d3d3d3;
+.input-container input, .form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
 }
 
-/*Text*/
-.title {
- margin-bottom: 1rem;
- font-size: 1.5em;
- font-weight: 500;
- color: #f5f5f5;
+.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
-/*Buttons*/
-.btn {
- margin: 1rem;
- border: none;
- border-radius: 4px;
- font-weight: bold;
- font-size: .8em;
- text-transform: uppercase;
- padding: 0.6em 1.2em;
- background-color: #ffeba7;
- color: #5e6681;
- box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
- transition: all .3s ease-in-out;
+.input-container span {
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  place-content: center;
 }
 
-.btn-link {
- color: #f5f5f5;
- display: block;
- font-size: .75em;
- transition: color .3s ease-out;
+.input-container span svg {
+  color: #9CA3AF;
+  width: 1rem;
+  height: 1rem;
 }
 
-/*Hover & focus*/
-.field input:focus::placeholder {
- opacity: 0;
- transition: opacity .3s;
+.submit {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
 }
 
-.btn:hover {
- background-color: #5e6681;
- color: #ffeba7;
- box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+.signup-link {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
 }
 
-.btn-link:hover {
- color: #ffeba7;
+.signup-link a {
+  text-decoration: underline;
 }
