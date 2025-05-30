@@ -2,6 +2,13 @@
   cursor: pointer;
 }
 
+.card {
+  height: 304px;
+}
+
+.linea {
+  border-bottom: 1px solid black;
+}
 
 /* From Uiverse.io by Yaya12085 */ 
 .form {
@@ -85,3 +92,4 @@
 .signup-link a {
   text-decoration: underline;
 }
+
