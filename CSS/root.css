@@ -1,0 +1,27 @@
+:root {
+    --color-uno: rgb(199, 119, 14);
+    --color-dos: rgb(166, 228, 23);
+    --ancho: 200px;
+    --letra: 'Segoe UI'
+}
+
+.box {
+    background-color: var(--color-uno);
+    height: var(--ancho);
+    width: var(--ancho);
+    font-family: var(--letra);
+}
+
+.one {
+    background-color: var(--color-dos);
+    height: var(--ancho);
+    width: var(--ancho);
+}
+
+.main {
+    background-color: var(--color-uno);
+    height: var(--ancho);
+    width: var(--ancho);
+
+}
+

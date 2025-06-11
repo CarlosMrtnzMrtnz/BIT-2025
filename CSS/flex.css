@@ -1,3 +1,9 @@
+:root {
+    --color-uno: rgb(199, 119, 14);
+    --color-dos: rgb(166, 228, 23);
+    --ancho: 200px;
+}
+
 img{
     width: 200px;
 }
