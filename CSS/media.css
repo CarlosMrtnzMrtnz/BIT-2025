@@ -1,0 +1,25 @@
+.contenedor {
+    background-color: #f80404;
+    height: 50px;
+}
+@media (max-width: 1200px) {
+    .contenedor {
+        background-color: #c5a514;
+    }
+}
+
+@media (max-width: 900px) {
+    .contenedor {
+        background-color: #8757df;
+        height: 100px;
+    }
+    body {
+        background-color: aqua;
+    }
+
+}
+@media (max-width: 670px) {
+    .contenedor {
+        background-color: #628510;
+    }
+}
